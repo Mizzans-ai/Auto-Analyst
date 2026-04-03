@@ -1,0 +1,23 @@
+# Autonomous Data Analyst Agent — requirements
+# Install: pip install -r requirements.txt
+
+# Agent framework
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0        # for Groq free-tier LLaMA 3
+
+# Data & viz
+pandas>=2.0.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+
+# UI
+gradio>=4.40.0
+Pillow>=10.0.0
+
+# Ollama alternative (uncomment if using local models instead of Groq)
+# langchain-ollama>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
